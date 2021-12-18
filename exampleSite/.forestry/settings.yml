@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: devops
+  label: Git
+  create: all
+  match: "**/*"
+- type: heading
+  label: DevOps
+- type: directory
   path: exampleSite/content/author
   label: Author
   create: all
